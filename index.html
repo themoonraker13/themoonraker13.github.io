@@ -18,353 +18,381 @@
     <link href="css/style.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
 
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Parth Kachchhi</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">My Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About Me</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top">Parth Kachchhi</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#portfolio">My Portfolio</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#about">About Me</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src="img/profile.gif" alt="">
+                <div class="intro-text">
+                    <span class="name">Parth Kachchhi</span>
+                    <hr class="star-light">
+                    <span class="skills">Mobile Developer - System Architect - Web Developer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>My Portfolio</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/openmrs.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/hom24x7.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/sms.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/fms.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="success" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>About Me</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>I’m a software developer and an IT enthusiast. Feed on mind-boggling ideas and technologies.</p>
+                <p>Always ready to roll thoughts on cognitive ideas no matter how silly it may be, for I believe in a
+                    simple philosophy – “Every COMPLEX evolves from a SIMPLE IDEA”.</p>
+                <p>Find me online as <strong><a href="https://www.google.com/search?q=themoonraker13"
+                                                style="color: aliceblue; font-style: italic;">themoonraker13</a></strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Around The Web</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/themoonraker13" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/themoonraker13" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/u/0/+ParthKachchhi" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://in.linkedin.com/in/themoonraker13" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/themoonraker13" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.gif" alt="">
-                    <div class="intro-text">
-                        <span class="name">Parth Kachchhi</span>
-                        <hr class="star-light">
-                        <span class="skills">Mobile Developer - System Architect - Web Developer</span>
-                    </div>
+                    Copyright &copy; 2016 THEMOONRAKER13
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</footer>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>My Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-			
-			<div class="row">
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/openmrs.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/hom24x7.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sms.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/fms.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-			
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>I’m a software developer and an IT enthusiast. Feed on mind-boggling ideas and technologies.</p>
-					<p>Always ready to roll thoughts on cognitive ideas no matter how silly it may be, for I believe in a simple philosophy – “Every COMPLEX evolves from a SIMPLE IDEA”.</p>
-					<p>Find me online as <strong><a href="https://www.google.com/search?q=themoonraker13" style="color: aliceblue; font-style: italic;">themoonraker13</a></strong>.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h3>Around The Web</h3>
-                        <ul class="list-inline">
-							<li>
-                                <a href="https://www.facebook.com/themoonraker13" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>OpenMRS - EMR</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/openmrs-screen.png" class="img-responsive img-centered" alt="">
+                        <p>The global OpenMRS community works together to build the world's leading open source
+                            enterprise electronic medical record system platform</p>
+                        <p>Try OpenMRS: <a href="http://openmrs.org/demo/" style="color: " #18BC9C":>OpenMRS Demo</a>
+                        </p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://openmrs.org/">OpenMRS</a></strong>
                             </li>
-							<li>
-                                <a href="https://www.github.com/themoonraker13" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            <li>From Date:
+                                <strong><a href="#">November 2015</a></strong>
                             </li>
-                            <li>
-                                <a href="https://plus.google.com/u/0/+ParthKachchhi" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            <li>To Date:
+                                <strong><a href="#">Still Contributing</a></strong>
                             </li>
-                            <li>
-                                <a href="https://in.linkedin.com/in/themoonraker13" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/themoonraker13" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            <li>Service:
+                                <strong><a href="#">Java Development</a></strong>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; 2016 THEMOONRAKER13
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>OpenMRS - EMR</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/openmrs-screen.png" class="img-responsive img-centered" alt="">
-                            <p>The global OpenMRS community works together to build the world's leading open source enterprise electronic medical record system platform</p>
-							<p>Try OpenMRS: <a href="http://openmrs.org/demo/" style="color: "#18BC9C":>OpenMRS Demo</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://openmrs.org/">OpenMRS</a></strong>
-                                </li>
-                                <li>From Date:
-                                    <strong><a href="#">November 2015</a></strong>
-                                </li>
-								<li>To Date:
-                                    <strong><a href="#">Still Contributing</a></strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">Java Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Host Of the Most 24 x 7</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/hom24x7-poster.png" class="img-responsive img-centered" alt="">
-                            <p>Host Of the Most 24 x 7 is a hybrid application serving SaaS in the most exemplifying manner possible. The application was one of the important part of my Computer Science Engineering journey and undoubtedly the final year project.</p>
-							<p>I prefer pictorial representation over text in most cases (good food for brains!! as they tend to store images and memories optimally) and hence the above poster briefing on the vital aspects/modules of the application.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.samaysoftware.net/">Samay Software</a></strong>
-                                </li>
-                                <li>From Date:
-                                    <strong><a href="#">June 2014</a></strong>
-                                </li>
-								<li>To Date:
-                                    <strong><a href="#">May 2015</a></strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Host Of the Most 24 x 7</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/hom24x7-poster.png" class="img-responsive img-centered" alt="">
+                        <p>Host Of the Most 24 x 7 is a hybrid application serving SaaS in the most exemplifying manner
+                            possible. The application was one of the important part of my Computer Science Engineering
+                            journey and undoubtedly the final year project.</p>
+                        <p>I prefer pictorial representation over text in most cases (good food for brains!! as they
+                            tend to store images and memories optimally) and hence the above poster briefing on the
+                            vital aspects/modules of the application.</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://www.samaysoftware.net/">Samay Software</a></strong>
+                            </li>
+                            <li>From Date:
+                                <strong><a href="#">June 2014</a></strong>
+                            </li>
+                            <li>To Date:
+                                <strong><a href="#">May 2015</a></strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="#">Web Development</a></strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Store Management System</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/sms.png" class="img-responsive img-centered" alt="">
-                            <p>A standalone Java-SQL connectivity application to manage the activities at a general store (buying, selling, stock management, etc.)</p>
-							<p>Uses B.V.(Business Volume) policy to reward customers based on the points accumulated through purchase of products from the general store</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">Software Engineering Project</a></strong>
-                                </li>
-                                <li>From Date:
-                                    <strong><a href="#">January 2014</a></strong>
-                                </li>
-								<li>To Date:
-                                    <strong><a href="#">May 2014</a></strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">Java Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Store Management System</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/sms.png" class="img-responsive img-centered" alt="">
+                        <p>A standalone Java-SQL connectivity application to manage the activities at a general store
+                            (buying, selling, stock management, etc.)</p>
+                        <p>Uses B.V.(Business Volume) policy to reward customers based on the points accumulated through
+                            purchase of products from the general store</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="#">Software Engineering Project</a></strong>
+                            </li>
+                            <li>From Date:
+                                <strong><a href="#">January 2014</a></strong>
+                            </li>
+                            <li>To Date:
+                                <strong><a href="#">May 2014</a></strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="#">Java Development</a></strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Faculty Management System</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/fms.png" class="img-responsive img-centered" alt="">
-                            <p>A standalone Java-SQL connectivity application to manage the information of the faculties at the school</p>
-							<p>Faculty profile holds personal and professional information of the faculty</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">Informatics Practices Project</a></strong>
-                                </li>
-                                <li>From Date:
-                                    <strong><a href="#">June 2010</a></strong>
-                                </li>
-								<li>To Date:
-                                    <strong><a href="#">March 2011</a></strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">Java Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Faculty Management System</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/fms.png" class="img-responsive img-centered" alt="">
+                        <p>A standalone Java-SQL connectivity application to manage the information of the faculties at
+                            the school</p>
+                        <p>Faculty profile holds personal and professional information of the faculty</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="#">Informatics Practices Project</a></strong>
+                            </li>
+                            <li>From Date:
+                                <strong><a href="#">June 2010</a></strong>
+                            </li>
+                            <li>To Date:
+                                <strong><a href="#">March 2011</a></strong>
+                            </li>
+                            <li>Service:
+                                <strong><a href="#">Java Development</a></strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-			integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-			crossorigin="anonymous"></script>
+</div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/script.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="js/script.min.js"></script>
 
 </body>
 
