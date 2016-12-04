@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="About Me - themoonraker13">
+    <meta name="author" content="Parth Kachchhi">
 
     <title>Parth Kachchhi</title>
 
@@ -15,7 +15,10 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/theme/style.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="css/cd-timeline/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -48,14 +51,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
+                <li class="page-scroll">
+                    <a href="https://parthkachchhi.wordpress.com/">My Blog</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#portfolio">My Portfolio</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About Me</a>
+                    <a href="#cd-timeline">My Story</a>
                 </li>
             </ul>
         </div>
@@ -74,13 +77,22 @@
                     <span class="name">Parth Kachchhi</span>
                     <hr class="star-light">
                     <span class="skills">Mobile Developer - System Architect - Web Developer</span>
+                    <hr class="star-light">
                 </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>I’m a software developer and an IT enthusiast, specializing in cutting-edge Back End
+                    technologies.</p>
+                <p>My philosophy in life – “Every COMPLEX evolves from a SIMPLE IDEA”.</p>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Portfolio Grid Section -->
+<!-- My Portfolio Section -->
 <section id="portfolio">
     <div class="container">
         <div class="row">
@@ -135,25 +147,56 @@
     </div>
 </section>
 
-<!-- About Section -->
-<section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>About Me</h2>
-                <hr class="star-light">
-            </div>
+<!-- My Story Section -->
+<section id="cd-timeline" class="cd-container">
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-open-source"><img src="img/cd-timeline/cd-icon-open-source.svg" alt="Picture">
         </div>
 
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p>I’m a software developer and an IT enthusiast. Feed on mind-boggling ideas and technologies.</p>
-                <p>Always ready to roll thoughts on cognitive ideas no matter how silly it may be, for I believe in a
-                    simple philosophy – “Every COMPLEX evolves from a SIMPLE IDEA”.</p>
-                <p>Find me online as <strong><a href="https://www.google.com/search?q=themoonraker13"
-                                                style="color: aliceblue; font-style: italic;">themoonraker13</a></strong>.
-                </p>
-            </div>
+        <div class="cd-timeline-content">
+            <h2>Open Source</h2>
+            <p>Open Source contributor at <a href="https://github.com/openmrs">OpenMRS</a></p>
+            <p>The global OpenMRS community works together to build the world's leading open source enterprise
+                electronic medical record system platform.</p>
+            <small>
+                Roles: <a href="https://talk.openmrs.org/users/themoonraker13">/dev/2</a>, Bug Reporter, Community
+                Blogger
+            </small>
+            <span class="cd-date">Nov 2015 - Current</span>
+        </div>
+    </div>
+
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-work-experience"><img src="img/cd-timeline/cd-icon-work-experience.svg"
+                                                             alt="Movie"></div>
+
+        <div class="cd-timeline-content">
+            <h2>Work Experience</h2>
+            <p>System/Application Developer at <a href="http://www.magily.net/">Magily Inc.</a></p>
+            <small>Roles: Site Manager, Mentor, Application Developer</small>
+            <span class="cd-date">Jun 2015 - Current</span>
+        </div>
+    </div>
+
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-intern"><img src="img/cd-timeline/cd-icon-intern.svg" alt="Picture"></div>
+
+        <div class="cd-timeline-content">
+            <h2>Internship</h2>
+            <p>Application Developer Intern at <a href="http://ehealthpremierinc.com/">eHealthPremier Inc.</a></p>
+            <small>Roles: Site Manager, Application Developer, Intern Mentor</small>
+            <span class="cd-date">Jan 2015 - Jun 2015</span>
+        </div>
+    </div>
+
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-education"><img src="img/cd-timeline/cd-icon-education.svg" alt="Location"></div>
+        <div class="cd-timeline-content">
+            <h2>Education</h2>
+            <p>B.E. Computer Science & Engineering at <a href="http://bitseducampus.org/IT/index.html">Babaria Institute
+                of Technology</a></p>
+            <small>University Topper - <a href="http://www.gtu.ac.in/">Gujarat Technological University</a></small>
+            <span class="cd-date">Aug 2011 - Jun 2015</span>
         </div>
     </div>
 </section>
@@ -391,8 +434,33 @@
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
+<!-- modernizr JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
 <!-- Theme JavaScript -->
-<script src="js/script.min.js"></script>
+<script src="js/theme/script.js"></script>
+
+<script>
+    jQuery(document).ready(function ($) {
+        var $timeline_block = $('.cd-timeline-block');
+
+        //hide timeline blocks which are outside the viewport
+        $timeline_block.each(function () {
+            if ($(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75) {
+                $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+            }
+        });
+
+        //on scolling, show/animate timeline blocks when enter the viewport
+        $(window).on('scroll', function () {
+            $timeline_block.each(function () {
+                if ($(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden')) {
+                    $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+                }
+            });
+        });
+    });
+</script>
 
 </body>
 

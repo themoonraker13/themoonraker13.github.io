@@ -11,28 +11,18 @@ p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a, a:hover, a:focus, a:active, a.active {
     color: #18BC9C;
     outline: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.star-light, hr.star-primary {
     padding: 0;
     border: none;
     border-top: solid 5px;
@@ -41,10 +31,9 @@ hr.star-primary {
     margin: 25px auto 30px;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+hr.star-light:after, hr.star-primary:after {
     content: "\f005";
-    font-family: FontAwesome;
+    font-family: FontAwesome, monospace;
     display: inline-block;
     position: relative;
     top: -0.8em;
@@ -134,9 +123,7 @@ header .intro-text .skills {
     color: white;
 }
 
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
     color: white;
 }
@@ -154,8 +141,7 @@ header .intro-text .skills {
     outline: none;
 }
 
-.navbar-custom .navbar-nav li a:focus,
-.navbar-custom .navbar-nav li a:active {
+.navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
     color: white;
 }
 
@@ -164,8 +150,7 @@ header .intro-text .skills {
     background: #18BC9C;
 }
 
-.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:hover, .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
     color: white;
     background: #18BC9C;
@@ -178,8 +163,7 @@ header .intro-text .skills {
     border-color: white;
 }
 
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
     background-color: #18BC9C;
     color: white;
     border-color: #18BC9C;
@@ -210,7 +194,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
@@ -297,8 +281,7 @@ section.success {
     border-bottom: 1px solid #eeeeee;
 }
 
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group input, .floating-label-form-group textarea {
     z-index: 1;
     position: relative;
     padding-right: 0;
@@ -320,7 +303,6 @@ section.success {
     font-size: 0.85em;
     line-height: 1.764705882em;
     vertical-align: middle;
-    vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top 0.3s ease, opacity 0.3s ease;
     -moz-transition: top 0.3s ease, opacity 0.3s ease;
@@ -377,10 +359,7 @@ footer .footer-below {
     margin-top: 15px;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: #18BC9C;
     background: white;
     border: solid 2px white;
@@ -393,11 +372,7 @@ footer .footer-below {
     font-weight: 700;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     color: white;
     background-color: #1a242f;
     border-color: #161f29;
@@ -409,21 +384,11 @@ footer .footer-below {
     background-image: none;
 }
 
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
     background-color: #2C3E50;
     border-color: #2C3E50;
 }
@@ -440,37 +405,21 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
 }
 
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
     color: white;
     background-color: #128f76;
     border-color: #11866f;
 }
 
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
+.btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
     background-image: none;
 }
 
-.btn-success.disabled,
-.btn-success[disabled],
-fieldset[disabled] .btn-success,
-.btn-success.disabled:hover,
-.btn-success[disabled]:hover,
-fieldset[disabled] .btn-success:hover,
-.btn-success.disabled:focus,
-.btn-success[disabled]:focus,
-fieldset[disabled] .btn-success:focus,
-.btn-success.disabled:active,
-.btn-success[disabled]:active,
-fieldset[disabled] .btn-success:active,
-.btn-success.disabled.active,
-.btn-success[disabled].active,
-fieldset[disabled] .btn-success.active {
+.btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover,
+.btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus,
+.btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled:active,
+.btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active,
+.btn-success[disabled].active, fieldset[disabled] .btn-success.active {
     background-color: #18BC9C;
     border-color: #18BC9C;
 }
@@ -491,9 +440,7 @@ fieldset[disabled] .btn-success.active {
     line-height: 45px;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active {
+.btn:focus, .btn:active, .btn.active {
     outline: none;
 }
 
